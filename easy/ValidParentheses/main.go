@@ -55,6 +55,7 @@ func isValid(s string) bool { //83/98 -> minha solução
 		'{': '}',
 		'[': ']',
 	}
+
 	stack := []rune{}
 
 	for _, r := range s {
